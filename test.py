@@ -49,7 +49,7 @@ print("The features vector (input) is", input_text, "and the expected value (out
 # So, when you finish to extract the features from your database, just apply the features vector and the expected vector to the MLP classifier
 # You have to choose what topology you want to use. 1 for topology 1 and 2 for topology 2
 # The return is a printed classification report with precision, recall and f-measure. If you wish more information, please see the scikit-learn documentation
-# IMPORTANT: This test will not work because we have only one text example. Please, extract the features for other texts and run the code!
+# IMPORTANT: This test will not work because we have only one text example. Please, extract the features for other texts and run the code!!
 annManager.AnnTraining(input_text, output_text, 1)
 
 
