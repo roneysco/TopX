@@ -8,3 +8,16 @@ In this folder you have all the files that we used to run the approach. Please s
 Feel free to make any adjustment that you want! Any further information, please, contact me!
 
 Have fun! Thank you so much!
+
+
+---------------------------------
+
+Changes at this branch:
+
+' model_trainer.py ' will train and save the model in the 'trained_models' folder. The method 'parse_text' can be modified to be used accordingly to the base used for training
+
+' quality_predictor.py ' will predict the quality of a given list of reviews using the trained models. The method '_parse_text' can be modified to return a list of reviews(text) accordingly to the base of reviews.
+
+'mlp_filter' is an example of how to use this approach to filter reviews by quality.
+
+
